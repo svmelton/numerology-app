@@ -53,6 +53,7 @@ delete '/people/:id' do
   person.delete
   redirect "/people"
 end
+
 get '/people/:id' do
   @person = Person.find(params[:id])
   birthpath_number = Person.get_birthpath_number(@person.birthdate.strftime("%m%d%Y"))

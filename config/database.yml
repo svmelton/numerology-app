@@ -3,13 +3,13 @@ development:
   database: numerology_development
   pool: 5
   host: localhost
-  username: sarahmelton
-  password: Xairos1983!
+  username: username
+  password: password
     
 test:
   adapter: postgresql
   database: numerology_test
   pool: 5
   host: localhost
-  username: sarahmelton
-  password: Xairos1983!
+  username: username
+  password: password
